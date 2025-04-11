@@ -32,8 +32,14 @@ def generate_spiral_matrix(n):
 n = 6
 result = generate_spiral_matrix(6)
 
+#for row in result:
+#    print(row)
+
 for row in result:
-    print(row)
+    for x in row:
+        print(x , end=" " )
+    print("")
+
 
 #To print in a 2D Array
 #print(generate_spiral_matrix(4))
